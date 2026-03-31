@@ -1,0 +1,37 @@
+.bar{
+    position: fixed;
+    top: 398px;
+    left: 0;
+    bottom: 0;
+    background-color: grey;
+    z-index: 11;
+}
+.bar1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 80px;
+    flex-direction: column;
+    margin-top: 80px;
+    padding-right: 50px;
+    padding-left: 50px;
+    cursor: pointer;
+}
+
+.bar1:hover{
+    background-color: rgba(0,0,0,0.2);
+    opacity: 0.6;
+}
+
+.bar2{
+    width: 125px;
+    height: 125px;
+}
+
+.bar3{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+

@@ -1,0 +1,128 @@
+.head{
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border-bottom: white solid 2px;
+    justify-content: space-between;
+    z-index: 10;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: #0f0f0f;
+}
+
+.head1{
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.head2{
+    flex: 1;
+    max-width: 2000px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.head3{
+    width: 1200px;
+    background-color: rgb(220, 235, 19);
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.head4{
+    width: 100px;
+    margin-left: 160px;
+    margin-right:80px;
+    background-color: white;
+}
+
+.head5{
+    width: 600px;
+    height: 150px;
+    padding-bottom: 20px;
+}
+.head6{
+    height: 200px;
+    flex: 1;
+    border: solid black 3px;
+    border-radius: 150px;
+    padding-left: 40px;
+    font-size: 80px;
+    font-family: monospace;
+    min-width: 100px;
+}
+
+.head7{
+    height: 150px;
+    width: 150px;
+}
+.head8{ 
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-right: -20px;
+}
+.head9{
+    border-radius: 100px;
+    background-color: white;
+    width: 180px;
+    height: 180px;
+    border: solid 1px black;
+}
+.important{
+    height: 200px;
+    width: 200px;
+    margin-left: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head10{
+    border-radius: 100px;
+    height: 180px;
+    width: 180px;
+    margin-top: 8px;
+    border: solid 1px black;
+}
+
+.head11{
+    margin-left: -200px;
+    height:210px;
+    width: 300px;
+    background-color: white;
+    border-top-right-radius:100px ;
+    border-bottom-right-radius:100px ;
+    position: relative;
+}
+.head11:hover .head12, .important:hover .head12, .head13:hover .head12{
+    opacity: 1;
+}
+
+.head12{
+    position: absolute;
+    background-color: rgb(255, 255, 255,0.8);
+    font-size: 100px;
+    bottom: -150px;
+    opacity: 0;
+    white-space: nowrap;
+    pointer-events: none;
+    transition: opacity 0.8s;
+}
+
+.head13{
+     display: flex;
+     justify-content: center; 
+     margin-left: 30px; 
+     position: relative;
+}

@@ -1,0 +1,58 @@
+.video{
+    display: flex;
+    flex-direction: column;
+}
+.video2{
+    width: 1000px;
+    height: 500px;
+    display: flex;
+}
+
+.video3{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    width: 1000px;
+    height: 500px;
+}
+
+.video4{
+    width: 150px;
+}
+.video5{
+    height: 125px;
+    width: 125px;
+    border-radius: 200px;
+    margin: 35px 15px 0px 10px;
+}
+
+.font{
+    font-size: 50px;
+    color: rgb(164, 164, 164);
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.font2{
+    margin-bottom: 10px;
+    color: white;
+    margin-top: 35px;
+}
+
+.font3{
+    font-size: 50px;
+    color: rgb(164, 164, 164);
+    margin-top: 0px;
+}
+
+.video-ex{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 100px;
+    column-gap: 100px;
+    padding-left: 700px;
+    padding-top: 500px;
+    position: static;
+}
+
