@@ -1,4 +1,4 @@
-.video{
+video{
     display: flex;
     flex-direction: column;
 }
@@ -6,25 +6,28 @@
     width: 1000px;
     height: 500px;
     display: flex;
+    position: relative;
 }
 
 .video3{
     flex: 1;
     display: flex;
     flex-direction: column;
-    border-radius: 20px;
     width: 1000px;
     height: 500px;
+    border-radius: 50px;
 }
 
 .video4{
     width: 150px;
+    margin-right: 20px;
 }
 .video5{
     height: 125px;
     width: 125px;
     border-radius: 200px;
     margin: 35px 15px 0px 10px;
+    position: relative;
 }
 
 .font{
@@ -38,17 +41,19 @@
     margin-bottom: 10px;
     color: white;
     margin-top: 35px;
+    font-size: 45px;
 }
 
 .font3{
     font-size: 50px;
     color: rgb(164, 164, 164);
     margin-top: 0px;
+    white-space: nowrap;
 }
 
 .video-ex{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr ;
     row-gap: 100px;
     column-gap: 100px;
     padding-left: 700px;
@@ -56,3 +61,82 @@
     position: static;
 }
 
+
+@media (max-width: 3999px) {
+  .video-ex {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 4000px) and (max-width: 4999px) {
+  .video-ex {
+    grid-template-columns: 1fr 1fr 1fr ;
+  }
+}
+
+@media (min-width: 5000px) {
+  .video-ex {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+.spe{
+    background-color: white;
+    display: flex;
+    border-radius: 50px;
+    position: absolute;
+    width: 800px;
+    opacity: 0;
+    pointer-events: none;
+}
+.spe1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 300px;
+}
+.spe2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100px;
+    color: black;   
+    margin-bottom: -20px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.Spe2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 45px;
+    color: black;   
+    margin-bottom: -20px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.spe3{
+    width: 150px;
+    margin-right: 50px;
+    margin-left: 20px;
+}
+.spe4{
+    height: 175px;
+    width: 175px;
+    border-radius: 200px;
+    margin: 20px 15px 0px 10px;
+}
+.spe5:hover .spe{
+    opacity: 1;
+}
+.time{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 20px;
+    bottom: 20px;
+    font-size: 40px;
+    height: 60px;
+    border-radius: 15px;
+}
