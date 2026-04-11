@@ -104,6 +104,7 @@
     border-top-right-radius:100px ;
     border-bottom-right-radius:100px ;
     position: relative;
+    cursor: pointer;
 }
 .head11:hover .head12, .important:hover .head12, .head13:hover .head12{
     opacity: 1;
@@ -125,4 +126,21 @@
      justify-content: center; 
      margin-left: 30px; 
      position: relative;
+}
+
+.head14{
+    background-color: red;
+    color: white;
+    border-radius: 200px;
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    text-align: center;
+    top: 5px;
+    right: 5px;
+    font-size: 60px;
+
+}
+.head15{
+    position: relative;
 }
